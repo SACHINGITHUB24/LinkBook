@@ -84,27 +84,7 @@ app.get('/formdata',function(req,res){
     res.render('QuickLink');
 })
 
-// app.post('/formdata', async function(req,res){
-    
 
-
-//     let {title, url} = req.body;
-
-
-// async function saveLinkData(title, url) {
-//     const newLink = new Link({ title, url });
-//     try {
-//         const savedLink = await newLink.save();
-        
-//         res.render('QuickLink',{ savedLink });
-
-//         let data = await Link.find();
-
-// res.render('QuickLink', {data })
-//     } catch (error) {
-//         console.error("Error saving link:", error);
-//     }
-// }
 
 
 
